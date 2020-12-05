@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class CreditScript : MonoBehaviour
+public class Credits : MonoBehaviour
 {
     public void Quit(){
         Debug.Log("Quit");

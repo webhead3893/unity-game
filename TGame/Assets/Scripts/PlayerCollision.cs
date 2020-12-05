@@ -3,7 +3,6 @@
 public class PlayerCollision : MonoBehaviour
 {
     public PlayerMovement movement;
-    public GameManager gameManager;
 
     void OnCollisionEnter(Collision collisionInfo){
         if(collisionInfo.collider.tag == "Obstacle"){
@@ -12,7 +11,7 @@ public class PlayerCollision : MonoBehaviour
         }
         if(collisionInfo.collider.tag == "End"){
             movement.enabled = false;
-            gameManager.Invoke("CompleteLevel", 2f);
+            FindObjectOfType<GameManager>().Invoke("CompleteLevel", 1f);
         }
     }
 }
