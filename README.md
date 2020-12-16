@@ -1,4 +1,3 @@
 # unity-game
  title
- >Hello there.
- >*beeps in response*
+>You know, I'm something of a game dev myself.
