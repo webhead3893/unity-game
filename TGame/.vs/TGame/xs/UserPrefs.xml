@@ -1,10 +1,14 @@
 ﻿<Properties StartupConfiguration="{AA106A64-A5DB-BA56-B869-A91D2C6D37AD}|">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Credits.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Credits.cs" Line="14" Column="33" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TGame" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Materials" selected="True" />
               <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
@@ -14,7 +18,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="54e692ad-b96a-4140-bee5-9f4f9ac3e8b5" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b5776b6e-643a-47b7-aaf4-faf8e2ec641a" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
