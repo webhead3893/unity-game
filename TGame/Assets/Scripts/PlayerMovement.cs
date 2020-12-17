@@ -15,11 +15,11 @@ public class PlayerMovement : MonoBehaviour
     {
         rb.AddForce(0, 0, forwardForce * Time.deltaTime);   //add a z-axis force on the player
 
-        if(Input.GetKey("right")){
+        if(Input.GetKey("right") || Input.GetKey("d")){
             rb.AddForce(sideForce, 0, 0 * Time.deltaTime, ForceMode.VelocityChange);
         }
 
-        if(Input.GetKey("left")){
+        if(Input.GetKey("left") || Input.GetKey("a")){
             rb.AddForce(-sideForce, 0, 0 * Time.deltaTime, ForceMode.VelocityChange);
         }
 
