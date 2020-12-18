@@ -3,6 +3,7 @@
 public class PlayerCollision : MonoBehaviour
 {
     public PlayerMovement movement;
+    public SideCheck sideCheck;
 
     void OnCollisionEnter(Collision collisionInfo){
         if(collisionInfo.collider.tag == "Obstacle"){

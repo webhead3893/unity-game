@@ -8,7 +8,6 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody rb;
     public float forwardForce = 2000f;
     public float sideForce = 500f;
-
     // Update is called once per frame
     // FixedUpdate for physics stuff
     void FixedUpdate()
@@ -24,6 +23,11 @@ public class PlayerMovement : MonoBehaviour
         }
 
         if(rb.position.y < -1f){
+            FindObjectOfType<GameManager>().EndGame();
+        }
+
+        if(rb.position.z > GameObject.FindGameObjectWithTag("End").transform.position.z)
+        {
             FindObjectOfType<GameManager>().EndGame();
         }
     }

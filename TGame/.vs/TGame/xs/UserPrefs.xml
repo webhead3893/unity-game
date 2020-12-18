@@ -1,15 +1,16 @@
 ﻿<Properties StartupConfiguration="{AA106A64-A5DB-BA56-B869-A91D2C6D37AD}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SideCheck.cs">
     <Files>
-      <File FileName="Assets/Scripts/Credits.cs" Line="14" Column="33" />
-      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="22" Column="51" />
+      <File FileName="Assets/Scripts/SideCheck.cs" Line="6" Column="27" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TGame" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
-              <Node name="Scripts" expanded="True" />
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="SideCheck.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -18,7 +19,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c246c252-e9f8-4688-8889-1c1a336b4e0a" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0f9a65a2-412a-436f-ac03-222e53db0bf2" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

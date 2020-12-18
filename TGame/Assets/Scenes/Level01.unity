@@ -543,7 +543,7 @@ PrefabInstance:
     - target: {fileID: 9054784368121700468, guid: 10060d09ac6bb4cbcb9271a48d63e471,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.7
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 9054784368121700468, guid: 10060d09ac6bb4cbcb9271a48d63e471,
         type: 3}
@@ -553,7 +553,7 @@ PrefabInstance:
     - target: {fileID: 9054784368121700468, guid: 10060d09ac6bb4cbcb9271a48d63e471,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 32.7
+      value: 28.67
       objectReference: {fileID: 0}
     - target: {fileID: 9054784368121700468, guid: 10060d09ac6bb4cbcb9271a48d63e471,
         type: 3}
@@ -914,6 +914,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5291585658953830126, guid: d8a3e303ffe9e43bcb577a175d86028e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d8a3e303ffe9e43bcb577a175d86028e, type: 3}
 --- !u!1001 &6299455415054467718
@@ -1056,6 +1061,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GSCheck
+      objectReference: {fileID: 0}
+    - target: {fileID: 7797208561553951705, guid: 5320ace110301493f9a89dbfe61311d5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Side
+      objectReference: {fileID: 0}
+    - target: {fileID: 7797208561553951706, guid: 5320ace110301493f9a89dbfe61311d5,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0.10211106
+      objectReference: {fileID: 0}
+    - target: {fileID: 7797208561553951706, guid: 5320ace110301493f9a89dbfe61311d5,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -0.44894943
+      objectReference: {fileID: 0}
+    - target: {fileID: 7797208561553951707, guid: 5320ace110301493f9a89dbfe61311d5,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0.102756076
+      objectReference: {fileID: 0}
+    - target: {fileID: 7797208561553951707, guid: 5320ace110301493f9a89dbfe61311d5,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -0.44863027
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5320ace110301493f9a89dbfe61311d5, type: 3}
